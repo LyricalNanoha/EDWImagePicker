@@ -1,0 +1,16 @@
+PODS:
+  - EDWBaseViewController (0.0.1)
+
+DEPENDENCIES:
+  - EDWBaseViewController (~> 0.0.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - EDWBaseViewController
+
+SPEC CHECKSUMS:
+  EDWBaseViewController: 44c6f9f62428612d63a6c5e7e1bf76e3536fc118
+
+PODFILE CHECKSUM: 519bc72396112e3d809858c44faeea62b0a62f7b
+
+COCOAPODS: 1.5.3

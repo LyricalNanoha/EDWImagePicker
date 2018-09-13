@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04141EE021474CBF00D426DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04141EDF21474CBF00D426DA /* ViewController.m */; };
+		04141EE321475ACA00D426DA /* EDWImageAlbumModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04141EE221475ACA00D426DA /* EDWImageAlbumModel.m */; };
+		04141EE62147656A00D426DA /* EDWImageListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04141EE52147656A00D426DA /* EDWImageListCollectionViewCell.m */; };
+		04B1AD4F214744A60082F517 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B1AD4E214744A60082F517 /* AppDelegate.m */; };
+		04B1AD51214744A80082F517 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B1AD50214744A80082F517 /* Assets.xcassets */; };
+		04B1AD54214744A80082F517 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B1AD52214744A80082F517 /* LaunchScreen.storyboard */; };
+		04B1AD57214744A80082F517 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B1AD56214744A80082F517 /* main.m */; };
+		04B1AD72214747BB0082F517 /* EDWImagePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B1AD71214747BB0082F517 /* EDWImagePickerViewController.m */; };
+		04B1AD752147484E0082F517 /* EDWAlbumListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B1AD742147484E0082F517 /* EDWAlbumListViewController.m */; };
+		04B1AD782147487E0082F517 /* EDWImageListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B1AD772147487E0082F517 /* EDWImageListViewController.m */; };
+		04BCBCE1214798A00044A463 /* EDWImagePickerSelectModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCBCE0214798A00044A463 /* EDWImagePickerSelectModel.m */; };
+		04BCBCE42147A3920044A463 /* EDWImagePickerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCBCE32147A3920044A463 /* EDWImagePickerTool.m */; };
+		04BCBCE721489ED50044A463 /* EDWImagePickerBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BCBCE621489ED50044A463 /* EDWImagePickerBaseViewController.m */; };
+		7CDADB35DBD9F1C7008FB671 /* libPods-EDWImagePickerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 091C7B601494A5570BD0042A /* libPods-EDWImagePickerDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04141EDE21474CBF00D426DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		04141EDF21474CBF00D426DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		04141EE121475ACA00D426DA /* EDWImageAlbumModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDWImageAlbumModel.h; sourceTree = "<group>"; };
+		04141EE221475ACA00D426DA /* EDWImageAlbumModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDWImageAlbumModel.m; sourceTree = "<group>"; };
+		04141EE42147656A00D426DA /* EDWImageListCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDWImageListCollectionViewCell.h; sourceTree = "<group>"; };
+		04141EE52147656A00D426DA /* EDWImageListCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDWImageListCollectionViewCell.m; sourceTree = "<group>"; };
+		04B1AD4A214744A60082F517 /* EDWImagePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EDWImagePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B1AD4D214744A60082F517 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04B1AD4E214744A60082F517 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04B1AD50214744A80082F517 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04B1AD53214744A80082F517 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04B1AD55214744A80082F517 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04B1AD56214744A80082F517 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04B1AD70214747BB0082F517 /* EDWImagePickerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDWImagePickerViewController.h; sourceTree = "<group>"; };
+		04B1AD71214747BB0082F517 /* EDWImagePickerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDWImagePickerViewController.m; sourceTree = "<group>"; };
+		04B1AD732147484E0082F517 /* EDWAlbumListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDWAlbumListViewController.h; sourceTree = "<group>"; };
+		04B1AD742147484E0082F517 /* EDWAlbumListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDWAlbumListViewController.m; sourceTree = "<group>"; };
+		04B1AD762147487E0082F517 /* EDWImageListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDWImageListViewController.h; sourceTree = "<group>"; };
+		04B1AD772147487E0082F517 /* EDWImageListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDWImageListViewController.m; sourceTree = "<group>"; };
+		04BCBCDF214798A00044A463 /* EDWImagePickerSelectModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDWImagePickerSelectModel.h; sourceTree = "<group>"; };
+		04BCBCE0214798A00044A463 /* EDWImagePickerSelectModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDWImagePickerSelectModel.m; sourceTree = "<group>"; };
+		04BCBCE22147A3920044A463 /* EDWImagePickerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDWImagePickerTool.h; sourceTree = "<group>"; };
+		04BCBCE32147A3920044A463 /* EDWImagePickerTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDWImagePickerTool.m; sourceTree = "<group>"; };
+		04BCBCE521489ED50044A463 /* EDWImagePickerBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDWImagePickerBaseViewController.h; sourceTree = "<group>"; };
+		04BCBCE621489ED50044A463 /* EDWImagePickerBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDWImagePickerBaseViewController.m; sourceTree = "<group>"; };
+		05CB8BC54009E9A42574FEA7 /* Pods-EDWImagePickerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EDWImagePickerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EDWImagePickerDemo/Pods-EDWImagePickerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		091C7B601494A5570BD0042A /* libPods-EDWImagePickerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EDWImagePickerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E941504F2D50AC43CB7AA22 /* Pods-EDWImagePickerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EDWImagePickerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-EDWImagePickerDemo/Pods-EDWImagePickerDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04B1AD47214744A60082F517 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDADB35DBD9F1C7008FB671 /* libPods-EDWImagePickerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04B1AD41214744A60082F517 = {
+			isa = PBXGroup;
+			children = (
+				04B1AD6F214745FD0082F517 /* EDWImagePicker */,
+				04B1AD4C214744A60082F517 /* EDWImagePickerDemo */,
+				04B1AD4B214744A60082F517 /* Products */,
+				E5242D9DBFB4217A22E2235B /* Pods */,
+				4D4BAA0680E26EEFCAE19A86 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04B1AD4B214744A60082F517 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B1AD4A214744A60082F517 /* EDWImagePickerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04B1AD4C214744A60082F517 /* EDWImagePickerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				04B1AD4D214744A60082F517 /* AppDelegate.h */,
+				04B1AD4E214744A60082F517 /* AppDelegate.m */,
+				04141EDE21474CBF00D426DA /* ViewController.h */,
+				04141EDF21474CBF00D426DA /* ViewController.m */,
+				04B1AD50214744A80082F517 /* Assets.xcassets */,
+				04B1AD52214744A80082F517 /* LaunchScreen.storyboard */,
+				04B1AD55214744A80082F517 /* Info.plist */,
+				04B1AD56214744A80082F517 /* main.m */,
+			);
+			path = EDWImagePickerDemo;
+			sourceTree = "<group>";
+		};
+		04B1AD6F214745FD0082F517 /* EDWImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				04B1AD70214747BB0082F517 /* EDWImagePickerViewController.h */,
+				04B1AD71214747BB0082F517 /* EDWImagePickerViewController.m */,
+				04BCBCE521489ED50044A463 /* EDWImagePickerBaseViewController.h */,
+				04BCBCE621489ED50044A463 /* EDWImagePickerBaseViewController.m */,
+				04B1AD732147484E0082F517 /* EDWAlbumListViewController.h */,
+				04B1AD742147484E0082F517 /* EDWAlbumListViewController.m */,
+				04B1AD762147487E0082F517 /* EDWImageListViewController.h */,
+				04B1AD772147487E0082F517 /* EDWImageListViewController.m */,
+				04141EE42147656A00D426DA /* EDWImageListCollectionViewCell.h */,
+				04141EE52147656A00D426DA /* EDWImageListCollectionViewCell.m */,
+				04141EE121475ACA00D426DA /* EDWImageAlbumModel.h */,
+				04141EE221475ACA00D426DA /* EDWImageAlbumModel.m */,
+				04BCBCDF214798A00044A463 /* EDWImagePickerSelectModel.h */,
+				04BCBCE0214798A00044A463 /* EDWImagePickerSelectModel.m */,
+				04BCBCE22147A3920044A463 /* EDWImagePickerTool.h */,
+				04BCBCE32147A3920044A463 /* EDWImagePickerTool.m */,
+			);
+			path = EDWImagePicker;
+			sourceTree = "<group>";
+		};
+		4D4BAA0680E26EEFCAE19A86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				091C7B601494A5570BD0042A /* libPods-EDWImagePickerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E5242D9DBFB4217A22E2235B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05CB8BC54009E9A42574FEA7 /* Pods-EDWImagePickerDemo.debug.xcconfig */,
+				0E941504F2D50AC43CB7AA22 /* Pods-EDWImagePickerDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04B1AD49214744A60082F517 /* EDWImagePickerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04B1AD5A214744A80082F517 /* Build configuration list for PBXNativeTarget "EDWImagePickerDemo" */;
+			buildPhases = (
+				4D4F889A12A3232E51BF09F5 /* [CP] Check Pods Manifest.lock */,
+				04B1AD46214744A60082F517 /* Sources */,
+				04B1AD47214744A60082F517 /* Frameworks */,
+				04B1AD48214744A60082F517 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EDWImagePickerDemo;
+			productName = EDWImagePickerDemo;
+			productReference = 04B1AD4A214744A60082F517 /* EDWImagePickerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04B1AD42214744A60082F517 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = mac;
+				TargetAttributes = {
+					04B1AD49214744A60082F517 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 04B1AD45214744A60082F517 /* Build configuration list for PBXProject "EDWImagePickerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04B1AD41214744A60082F517;
+			productRefGroup = 04B1AD4B214744A60082F517 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04B1AD49214744A60082F517 /* EDWImagePickerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04B1AD48214744A60082F517 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B1AD51214744A80082F517 /* Assets.xcassets in Resources */,
+				04B1AD54214744A80082F517 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D4F889A12A3232E51BF09F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EDWImagePickerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04B1AD46214744A60082F517 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04141EE321475ACA00D426DA /* EDWImageAlbumModel.m in Sources */,
+				04141EE021474CBF00D426DA /* ViewController.m in Sources */,
+				04141EE62147656A00D426DA /* EDWImageListCollectionViewCell.m in Sources */,
+				04B1AD72214747BB0082F517 /* EDWImagePickerViewController.m in Sources */,
+				04B1AD752147484E0082F517 /* EDWAlbumListViewController.m in Sources */,
+				04B1AD782147487E0082F517 /* EDWImageListViewController.m in Sources */,
+				04BCBCE42147A3920044A463 /* EDWImagePickerTool.m in Sources */,
+				04B1AD57214744A80082F517 /* main.m in Sources */,
+				04BCBCE1214798A00044A463 /* EDWImagePickerSelectModel.m in Sources */,
+				04B1AD4F214744A60082F517 /* AppDelegate.m in Sources */,
+				04BCBCE721489ED50044A463 /* EDWImagePickerBaseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04B1AD52214744A80082F517 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04B1AD53214744A80082F517 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04B1AD58214744A80082F517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04B1AD59214744A80082F517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04B1AD5B214744A80082F517 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05CB8BC54009E9A42574FEA7 /* Pods-EDWImagePickerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = LT3QV64UU8;
+				INFOPLIST_FILE = EDWImagePickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.EDWImagePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		04B1AD5C214744A80082F517 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E941504F2D50AC43CB7AA22 /* Pods-EDWImagePickerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = LT3QV64UU8;
+				INFOPLIST_FILE = EDWImagePickerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = abc.EDWImagePickerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04B1AD45214744A60082F517 /* Build configuration list for PBXProject "EDWImagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B1AD58214744A80082F517 /* Debug */,
+				04B1AD59214744A80082F517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04B1AD5A214744A80082F517 /* Build configuration list for PBXNativeTarget "EDWImagePickerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04B1AD5B214744A80082F517 /* Debug */,
+				04B1AD5C214744A80082F517 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04B1AD42214744A60082F517 /* Project object */;
+}
